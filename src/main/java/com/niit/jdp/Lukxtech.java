@@ -9,4 +9,11 @@
 package com.niit.jdp;
 
 public class Lukxtech {
+    private String modelNumber;
+    private String displacement;
+    private int maxPower;
+    private int maxRpm;
+    private int NumberOfCylinder;
+
+
 }
