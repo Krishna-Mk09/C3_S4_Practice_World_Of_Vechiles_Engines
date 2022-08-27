@@ -15,5 +15,6 @@ public class Lukxtech {
     private int maxRpm;
     private int NumberOfCylinder;
 
-
+    public Lukxtech() {
+    }
 }
