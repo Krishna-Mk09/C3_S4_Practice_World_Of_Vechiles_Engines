@@ -11,4 +11,6 @@ package com.niit.jdp;
 public class InternalCombustion {
     private String fuelType;
 
+    public InternalCombustion() {
+    }
 }
