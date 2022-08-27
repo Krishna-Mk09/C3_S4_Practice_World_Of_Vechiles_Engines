@@ -17,4 +17,12 @@ public class Lukxtech {
 
     public Lukxtech() {
     }
+
+    public Lukxtech(String modelNumber, String displacement, int maxPower, int maxRpm, int numberOfCylinder) {
+        this.modelNumber = modelNumber;
+        this.displacement = displacement;
+        this.maxPower = maxPower;
+        this.maxRpm = maxRpm;
+        NumberOfCylinder = numberOfCylinder;
+    }
 }
