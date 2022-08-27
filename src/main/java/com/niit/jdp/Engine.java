@@ -18,6 +18,16 @@ public class Engine {
     public Engine() {
     }
 
+    public Engine(String modelNumber, String displacement, int maxPower, int maxRpm, int numberOfCylinder) {
+        this.modelNumber = modelNumber;
+        this.displacement = displacement;
+        this.maxPower = maxPower;
+        this.maxRpm = maxRpm;
+        NumberOfCylinder = numberOfCylinder;
+
+
+    }
+
     public String getModelNumber() {
         return modelNumber;
     }
@@ -58,13 +68,14 @@ public class Engine {
         NumberOfCylinder = numberOfCylinder;
     }
 
-    public Engine(String modelNumber, String displacement, int maxPower, int maxRpm, int numberOfCylinder) {
-        this.modelNumber = modelNumber;
-        this.displacement = displacement;
-        this.maxPower = maxPower;
-        this.maxRpm = maxRpm;
-        NumberOfCylinder = numberOfCylinder;
-
-
+    @Override
+    public String toString() {
+        return "Engine{" +
+                "modelNumber='" + modelNumber + '\'' +
+                ", displacement='" + displacement + '\'' +
+                ", maxPower=" + maxPower +
+                ", maxRpm=" + maxRpm +
+                ", NumberOfCylinder=" + NumberOfCylinder +
+                '}';
     }
 }
