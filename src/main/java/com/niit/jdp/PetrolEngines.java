@@ -12,4 +12,6 @@ public class PetrolEngines {
 
     private String fuelType;
 
+    public PetrolEngines() {
+    }
 }
