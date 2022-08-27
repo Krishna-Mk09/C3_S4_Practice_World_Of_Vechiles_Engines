@@ -8,21 +8,23 @@
 
 package com.niit.jdp;
 
-public class Lukxtech {
+public class Engine {
     private String modelNumber;
     private String displacement;
     private int maxPower;
     private int maxRpm;
     private int NumberOfCylinder;
 
-    public Lukxtech() {
+    public Engine() {
     }
 
-    public Lukxtech(String modelNumber, String displacement, int maxPower, int maxRpm, int numberOfCylinder) {
+    public Engine(String modelNumber, String displacement, int maxPower, int maxRpm, int numberOfCylinder) {
         this.modelNumber = modelNumber;
         this.displacement = displacement;
         this.maxPower = maxPower;
         this.maxRpm = maxRpm;
         NumberOfCylinder = numberOfCylinder;
+
+
     }
 }
