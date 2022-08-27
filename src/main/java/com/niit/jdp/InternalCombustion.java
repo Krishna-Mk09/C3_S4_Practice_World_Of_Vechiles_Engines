@@ -11,6 +11,11 @@ package com.niit.jdp;
 public class InternalCombustion {
     private String fuelType;
 
+    public InternalCombustion(String fuelType) {
+        this.fuelType = fuelType;
+    }
+
     public InternalCombustion() {
+
     }
 }
