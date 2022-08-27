@@ -9,4 +9,6 @@
 package com.niit.jdp;
 
 public class Diesel {
+    public Diesel() {
+    }
 }
