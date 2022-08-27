@@ -14,4 +14,8 @@ public class PetrolEngines {
 
     public PetrolEngines() {
     }
+
+    public PetrolEngines(String fuelType) {
+        this.fuelType = fuelType;
+    }
 }
