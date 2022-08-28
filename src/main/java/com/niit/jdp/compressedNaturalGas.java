@@ -10,10 +10,5 @@ package com.niit.jdp;
 
 public class compressedNaturalGas extends InternalCombustion {
 
-    public compressedNaturalGas(String fuelType) {
-        super(fuelType);
-    }
 
-    public compressedNaturalGas() {
-    }
 }
