@@ -8,7 +8,9 @@
 
 package com.niit.jdp;
 
-public class PetrolEngines {
+public class PetrolEngines extends InternalCombustion {
 
-
+    public PetrolEngines(String modelNumber, String displacement, int maxPower, int maxRpm, int numberOfCylinder, String fuelType) {
+        super(modelNumber, displacement, maxPower, maxRpm, numberOfCylinder, fuelType);
+    }
 }

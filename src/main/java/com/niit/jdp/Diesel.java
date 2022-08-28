@@ -13,4 +13,5 @@ public class Diesel extends InternalCombustion {
     public Diesel(String modelNumber, String displacement, int maxPower, int maxRpm, int numberOfCylinder, String fuelType) {
         super(modelNumber, displacement, maxPower, maxRpm, numberOfCylinder, fuelType);
     }
+
 }
