@@ -9,7 +9,7 @@
 package com.niit.jdp;
 
 public class ElectricalEngines extends Engine {
-    private int voltage;
+    private final int voltage;
 
     public ElectricalEngines(String modelNumber, String displacement, int maxPower, int maxRpm, int numberOfCylinder, int voltage) {
         super(modelNumber, displacement, maxPower, maxRpm, numberOfCylinder);
