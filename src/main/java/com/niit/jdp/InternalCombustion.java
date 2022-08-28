@@ -8,15 +8,14 @@
 
 package com.niit.jdp;
 
-public class InternalCombustion {
+public class InternalCombustion extends Engine {
     private String fuelType;
 
-    public InternalCombustion(String fuelType) {
+    public InternalCombustion(String modelNumber, String displacement, int maxPower, int maxRpm, int numberOfCylinder, String fuelType) {
+        super(modelNumber, displacement, maxPower, maxRpm, numberOfCylinder);
         this.fuelType = fuelType;
     }
 
-    public InternalCombustion() {
-    }
 
     public String getFuelType() {
         return fuelType;

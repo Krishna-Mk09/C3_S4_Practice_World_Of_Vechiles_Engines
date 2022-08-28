@@ -8,10 +8,6 @@
 
 package com.niit.jdp;
 
-public class Diesel extends InternalCombustion {
-    public Diesel() {
-    }
-    public Diesel(String fuelType) {
-        super(fuelType);
-    }
+public class Diesel {
+
 }

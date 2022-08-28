@@ -8,14 +8,7 @@
 
 package com.niit.jdp;
 
-public class PetrolEngines extends InternalCombustion {
+public class PetrolEngines {
 
 
-    public PetrolEngines(String fuelType) {
-        super(fuelType);
-    }
-
-    public PetrolEngines() {
-
-    }
 }
