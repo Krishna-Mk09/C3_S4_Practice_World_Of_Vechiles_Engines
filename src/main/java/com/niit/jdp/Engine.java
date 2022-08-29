@@ -8,6 +8,9 @@
 
 package com.niit.jdp;
 
+/**
+ * The Engine class is a blueprint for creating objects that store information about an engine
+ */
 public class Engine {
     private String modelNumber;
     private String displacement;
@@ -18,6 +21,7 @@ public class Engine {
     public Engine() {
     }
 
+    // This is a constructor.
     public Engine(String modelNumber, String displacement, int maxPower, int maxRpm, int numberOfCylinder) {
         this.modelNumber = modelNumber;
         this.displacement = displacement;
@@ -28,6 +32,7 @@ public class Engine {
 
     }
 
+    // This is called getter and setter methods.
     public String getModelNumber() {
         return modelNumber;
     }
@@ -68,6 +73,11 @@ public class Engine {
         NumberOfCylinder = numberOfCylinder;
     }
 
+    /**
+     * The toString() method returns a string representation of the object
+     *
+     * @return The toString method is being returned.
+     */
     @Override
     public String toString() {
         return "Engine{" +

@@ -10,7 +10,10 @@ package com.niit.jdp;
 
 public class PetrolEngines extends InternalCombustion {
 
+    // This is a constructor of the class PetrolEngines.
     public PetrolEngines(String modelNumber, String displacement, int maxPower, int maxRpm, int numberOfCylinder, String fuelType) {
         super(modelNumber, displacement, maxPower, maxRpm, numberOfCylinder, fuelType);
     }
+
 }
+
